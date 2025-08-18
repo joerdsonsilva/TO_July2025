@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
- <description>design rules: sg13g2_maximal | layout cell: FMD_QNC_Wideband_Tricode_DA</description>
- <original-file>C:\Users\nsl\Desktop\TO_July2025\Wideband_Distributed_Amplifier\Tricode\design_data\gds\FMD_QNC_2a_Tricode_DA.gds</original-file>
+ <description>design rules: sg13g2_maximal | layout cell: FMD_QNC_Wideband_Quadcode_DA</description>
+ <original-file>C:/Users/nsl/Desktop/TO_July2025/Wideband_Distributed_Amplifier/Quadcode/design_data/gds/FMD_QNC_2b_Quadcode_DA.gds</original-file>
  <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_maximal.lydrc'</generator>
- <top-cell>FMD_QNC_Wideband_Tricode_DA</top-cell>
+ <top-cell>FMD_QNC_Wideband_Quadcode_DA</top-cell>
  <tags>
  </tags>
  <categories>
@@ -2956,7 +2956,7 @@
  </categories>
  <cells>
   <cell>
-   <name>FMD_QNC_Wideband_Tricode_DA</name>
+   <name>FMD_QNC_Wideband_Quadcode_DA</name>
    <variant/>
    <layout-name/>
    <references>
@@ -2968,7 +2968,7 @@
    <layout-name>DA</layout-name>
    <references>
     <ref>
-     <parent>FMD_QNC_Wideband_Tricode_DA</parent>
+     <parent>FMD_QNC_Wideband_Quadcode_DA</parent>
      <trans>r0 *1 -562.925,-652.725</trans>
     </ref>
    </references>
@@ -2977,86 +2977,14 @@
  <items>
   <item>
    <tags/>
-   <category>'AFil.g2/g3'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <category>'Pad.aR'</category>
+   <cell>DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (68.58,158.375;68.58,958.375;868.58,958.375;868.58,158.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'AFil.g2/g3'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,258.375;68.58,1058.375;868.58,1058.375;868.58,258.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,158.375;68.58,958.375;868.58,958.375;868.58,158.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,258.375;68.58,1058.375;868.58,1058.375;868.58,258.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (338.58,158.375;338.58,958.375;1138.58,958.375;1138.58,158.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (338.58,258.375;338.58,1058.375;1138.58,1058.375;1138.58,258.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'TM2.c/d'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,158.375;68.58,1058.375;1138.58,1058.375;1138.58,158.375)</value>
+    <value>edge-pair: (1528.99,1590.79;1521.435,1598.345)|(1547.235,1614.971;1547.235,1598.345)</value>
    </values>
   </item>
   <item>
@@ -3068,7 +2996,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1528.99,1521.595;1521.435,1529.15)|(1547.235,1545.776;1547.235,1529.15)</value>
+    <value>edge-pair: (1521.435,1612.409;1521.435,1629.035)|(1539.68,1636.59;1547.235,1629.035)</value>
    </values>
   </item>
   <item>
@@ -3080,7 +3008,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1521.435,1543.214;1521.435,1559.84)|(1539.68,1567.395;1547.235,1559.84)</value>
+    <value>edge-pair: (1521.435,1598.345;1521.435,1629.035)|(1547.235,1629.035;1547.235,1598.345)</value>
    </values>
   </item>
   <item>
@@ -3092,7 +3020,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1521.435,1529.15;1521.435,1559.84)|(1547.235,1559.84;1547.235,1529.15)</value>
+    <value>edge-pair: (1521.435,1598.345;1521.435,1614.971)|(1547.235,1598.345;1539.68,1590.79)</value>
    </values>
   </item>
   <item>
@@ -3104,7 +3032,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1521.435,1529.15;1521.435,1545.776)|(1547.235,1529.15;1539.68,1521.595)</value>
+    <value>edge-pair: (1521.435,1629.035;1528.99,1636.59)|(1547.235,1629.035;1547.235,1612.409)</value>
    </values>
   </item>
   <item>
@@ -3116,7 +3044,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1521.435,1559.84;1528.99,1567.395)|(1547.235,1559.84;1547.235,1543.214)</value>
+    <value>edge-pair: (1046.175,952.815;1038.62,960.37)|(1064.42,976.996;1064.42,960.37)</value>
    </values>
   </item>
   <item>
@@ -3128,7 +3056,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1046.175,955.87;1038.62,963.425)|(1064.42,980.051;1064.42,963.425)</value>
+    <value>edge-pair: (1038.62,974.434;1038.62,991.06)|(1056.865,998.615;1064.42,991.06)</value>
    </values>
   </item>
   <item>
@@ -3140,7 +3068,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1038.62,977.489;1038.62,994.115)|(1056.865,1001.67;1064.42,994.115)</value>
+    <value>edge-pair: (1038.62,960.37;1038.62,991.06)|(1064.42,991.06;1064.42,960.37)</value>
    </values>
   </item>
   <item>
@@ -3152,7 +3080,7 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1038.62,963.425;1038.62,994.115)|(1064.42,994.115;1064.42,963.425)</value>
+    <value>edge-pair: (1038.62,960.37;1038.62,976.996)|(1064.42,960.37;1056.865,952.815)</value>
    </values>
   </item>
   <item>
@@ -3164,31 +3092,19 @@
    <comment/>
    <image/>
    <values>
-    <value>edge-pair: (1038.62,963.425;1038.62,980.051)|(1064.42,963.425;1056.865,955.87)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'Pad.aR'</category>
-   <cell>DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (1038.62,994.115;1046.175,1001.67)|(1064.42,994.115;1064.42,977.489)</value>
+    <value>edge-pair: (1038.62,991.06;1046.175,998.615)|(1064.42,991.06;1064.42,974.434)</value>
    </values>
   </item>
   <item>
    <tags/>
    <category>'Seal.m'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Quadcode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (72.58,162.375;72.58,1049.375;1114.58,1049.375;1114.58,162.375)</value>
+    <value>polygon: (70.77,161.335;70.77,1198.335;1122.77,1198.335;1122.77,161.335)</value>
    </values>
   </item>
  </items>

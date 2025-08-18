@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
- <description>design rules: sg13g2_minimal | layout cell: Wideband_Tricode_DA</description>
+ <description>design rules: sg13g2_minimal | layout cell: FMD_QNC_Wideband_Tricode_DA</description>
  <original-file>C:\Users\nsl\Desktop\TO_July2025\Wideband_Distributed_Amplifier\Tricode\design_data\gds\FMD_QNC_2a_Tricode_DA.gds</original-file>
  <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_minimal.lydrc'</generator>
- <top-cell>Wideband_Tricode_DA</top-cell>
+ <top-cell>FMD_QNC_Wideband_Tricode_DA</top-cell>
  <tags>
  </tags>
  <categories>
@@ -472,7 +472,7 @@
  </categories>
  <cells>
   <cell>
-   <name>Wideband_Tricode_DA</name>
+   <name>FMD_QNC_Wideband_Tricode_DA</name>
    <variant/>
    <layout-name/>
    <references>
@@ -483,7 +483,7 @@
   <item>
    <tags/>
    <category>'M2.j/k'</category>
-   <cell>Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -495,7 +495,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -507,7 +507,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -519,7 +519,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -531,7 +531,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -543,7 +543,7 @@
   <item>
    <tags/>
    <category>'TM2.c/d'</category>
-   <cell>Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>

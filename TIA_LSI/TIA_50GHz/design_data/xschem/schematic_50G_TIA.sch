@@ -90,8 +90,37 @@ N 940 -110 980 -110 {lab=I_in}
 N 980 -430 1690 -430 {lab=I_in}
 N 1750 -430 2390 -430 {lab=#net8}
 N 2330 -110 2390 -110 {lab=#net8}
-N 2390 -110 2610 -110 {lab=#net8}
 N 920 -350 920 -310 {lab=VDD}
+N 2430 -110 2430 -90 {lab=#net10}
+N 2430 -60 2430 -40 {lab=#net11}
+N 2390 -110 2390 -60 {lab=#net8}
+N 2330 100 2430 100 {lab=gnd}
+N 2430 -30 2430 100 {lab=gnd}
+N 2540 -110 2540 -90 {lab=V_out}
+N 2540 -60 2540 -40 {lab=#net12}
+N 2540 -30 2540 100 {lab=gnd}
+N 2430 100 2540 100 {lab=gnd}
+N 2490 -110 2490 -60 {lab=#net10}
+N 2430 -110 2490 -110 {lab=#net10}
+N 2490 -60 2500 -60 {lab=#net10}
+N 2660 -110 2660 -90 {lab=V_out}
+N 2660 -60 2660 -40 {lab=#net13}
+N 2770 -110 2810 -110 {lab=V_out}
+N 2660 -30 2660 100 {lab=gnd}
+N 2610 -60 2620 -60 {lab=V_out}
+N 2540 100 2660 100 {lab=gnd}
+N 2610 -110 2610 -60 {lab=V_out}
+N 2540 -110 2610 -110 {lab=V_out}
+N 2540 -340 2540 -270 {lab=VDD}
+N 2540 -210 2540 -110 {lab=V_out}
+N 2660 -210 2660 -110 {lab=V_out}
+N 2660 -340 2660 -270 {lab=VDD}
+N 2430 -210 2430 -110 {lab=#net10}
+N 2430 -340 2430 -270 {lab=VDD}
+N 2770 -110 2770 -90 {lab=V_out}
+N 2660 -110 2770 -110 {lab=V_out}
+N 2770 -30 2770 100 {lab=gnd}
+N 2660 100 2770 100 {lab=gnd}
 C {sg13g2_pr/sg13_hv_nmos.sym} 1200 -60 0 0 {name=M1
 l=0.13u
 w=45u
@@ -238,4 +267,51 @@ spiceprefix=X
 C {ipin.sym} 1770 190 3 0 {name=p12 lab=gnd}
 C {vdd.sym} 920 -340 0 0 {name=l2 lab=VDD}
 C {ipin.sym} 920 -310 3 0 {name=p1 lab=Vdc}
-C {opin.sym} 2610 -110 0 0 {name=p2 lab=V_out}
+C {opin.sym} 2810 -110 0 0 {name=p2 lab=V_out}
+C {res.sym} 2430 -240 0 0 {name=R2
+value=1k
+footprint=1206
+device=resistor
+m=1}
+C {sg13g2_pr/sg13_hv_nmos.sym} 2410 -60 0 0 {name=M16
+l=0.13u
+w=21u
+ng=3
+m=1
+model=sg13_hv_nmos
+spiceprefix=X
+}
+C {vdd.sym} 2430 -340 0 0 {name=l6 lab=VDD}
+C {res.sym} 2540 -240 0 0 {name=R3
+value=200
+footprint=1206
+device=resistor
+m=1}
+C {sg13g2_pr/sg13_hv_nmos.sym} 2520 -60 0 0 {name=M17
+l=0.13u
+w=50u
+ng=5
+m=1
+model=sg13_hv_nmos
+spiceprefix=X
+}
+C {vdd.sym} 2540 -340 0 0 {name=l3 lab=VDD}
+C {res.sym} 2660 -240 0 0 {name=R4
+value=100
+footprint=1206
+device=resistor
+m=1}
+C {sg13g2_pr/sg13_hv_nmos.sym} 2640 -60 0 0 {name=M18
+l=0.13u
+w=75u
+ng=10
+m=2
+model=sg13_hv_nmos
+spiceprefix=X
+}
+C {vdd.sym} 2660 -340 0 0 {name=l7 lab=VDD}
+C {capa-2.sym} 2770 -60 0 0 {name=C1
+m=1
+value=500f
+footprint=1206
+device=polarized_capacitor}

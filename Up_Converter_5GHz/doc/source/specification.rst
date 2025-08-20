@@ -11,7 +11,7 @@ Mixer Up-Converter with Cross-Coupled Differential VCO:
 .. image:: _static/UPCONV.png
     :align: center
     :alt: Schematic Mixer Up-converter
-    :width: 100
+    :width: 800
 
 
 IFP and IFN: Differential input pair
@@ -31,7 +31,7 @@ Cross-Coupled Differential VCO:
 .. image:: _static/VCO.png
     :align: center
     :alt: Schematic Oscilator
-    :width: 300
+    :width: 800
 
 
 LOP2 and LON2: Differential output pair

@@ -2977,30 +2977,6 @@
  <items>
   <item>
    <tags/>
-   <category>'AFil.g2/g3'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,158.375;68.58,958.375;868.58,958.375;868.58,158.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'AFil.g2/g3'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,258.375;68.58,1058.375;868.58,1058.375;868.58,258.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
    <category>'M2Fil.h/k'</category>
    <cell>FMD_QNC_Wideband_Tricode_DA</cell>
    <visited>false</visited>
@@ -3045,18 +3021,6 @@
    <image/>
    <values>
     <value>polygon: (338.58,258.375;338.58,1058.375;1138.58,1058.375;1138.58,258.375)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'TM2.c/d'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (68.58,158.375;68.58,1058.375;1138.58,1058.375;1138.58,158.375)</value>
    </values>
   </item>
   <item>

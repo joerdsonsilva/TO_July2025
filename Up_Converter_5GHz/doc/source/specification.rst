@@ -14,14 +14,14 @@ Mixer Up-Converter with Cross-Coupled Differential VCO:
     :width: 800
 
 
-IFP and IFN: Differential input pair
-RFP and RFN: Differential output pair
-VDC: Power supply terminal (Mixer)
-VCC: Power supply terminal (Oscillator)
-VCTR: Voltage control terminal
-IDC: Bias current terminal (Mixer)
-ICC: Bias current terminal (Oscillator)
-GND: Ground terminal
+- IFP and IFN: Differential input pair
+- RFP and RFN: Differential output pair
+- VDC: Power supply terminal (Mixer)
+- VCC: Power supply terminal (Oscillator)
+- VCTR: Voltage control terminal
+- IDC: Bias current terminal (Mixer)
+- ICC: Bias current terminal (Oscillator)
+- GND: Ground terminal
 
 
 
@@ -34,11 +34,11 @@ Cross-Coupled Differential VCO:
     :width: 800
 
 
-LOP2 and LON2: Differential output pair
-VCC2: Power supply terminal
-VCTR2: Voltage control terminal
-ICC2: Bias current terminal
-GND2: Ground terminal
+- LOP2 and LON2: Differential output pair
+- VCC2: Power supply terminal
+- VCTR2: Voltage control terminal
+- ICC2: Bias current terminal
+- GND2: Ground terminal
 
 
 Chip Pinout

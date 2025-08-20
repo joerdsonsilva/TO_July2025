@@ -66,7 +66,7 @@ Chip Pinout
     :alt: Chip Pinout
     :width: 800
 
-.. image:: _static/chip_layout.png
+.. image:: _static/Chip_Layout.png
     :align: center
     :alt: Chip Layout
     :width: 800

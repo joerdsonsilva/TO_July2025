@@ -7,6 +7,7 @@ To characterize circuits at both conventional and cryogenic temperatures, a chip
 
 
 Mixer Up-Converter with Cross-Coupled Differential VCO:
+
 .. image:: _static/UPCONV.png
     :align: center
     :alt: Schematic Mixer Up-converter

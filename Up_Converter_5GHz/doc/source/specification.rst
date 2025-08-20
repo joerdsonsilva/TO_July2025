@@ -61,7 +61,7 @@ Cross-Coupled Differential VCO:
 Chip Pinout
 ###########
 
-.. image:: _static/pin.png
+.. image:: _static/Pin.png
     :align: center
     :alt: Chip Pinout
     :width: 800

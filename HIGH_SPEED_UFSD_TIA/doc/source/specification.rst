@@ -11,6 +11,8 @@ The circuit performance is comparable to state-of-the-art commercial systems cur
 Due to the stringent requirements for time resolution and signal integrity, this type of circuit is in high demand at leading research facilities such as **CERN**, where accurate particle tracking and timing are critical for advancing experimental physics.
 
 
+.. image:: _static/layout.png
+
 Specifications of the design
 =============================
 

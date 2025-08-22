@@ -11,7 +11,7 @@ Mixer Up-Converter with Cross-Coupled Differential VCO:
 .. image:: _static/UPCONV.png
     :align: center
     :alt: Schematic Mixer Up-converter
-    :width: 1000
+    :width: 1200
 
 
 - IFP and IFN: Differential input pair
@@ -38,7 +38,7 @@ Cross-Coupled Differential VCO:
 - VCC2: Power supply terminal
 - VCTR2: Voltage control terminal
 - ICC2: Bias current terminal
-- GND2: Ground terminal
+- GND: Ground terminal
 
 Electrostatic Discharge
 ###########

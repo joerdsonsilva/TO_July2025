@@ -1,0 +1,100 @@
+** sch_path: /home/Joerdson/FMD_QNC_UpConverter_5GHz.sch
+**.subckt FMD_QNC_UpConverter_5GHz RFN RFP VDC IFP IFN GND ICC LON2 LOP2 VCC2 ICC2 GND IDC VCTR2 VCTR VCC
+*.iopin RFN
+*.iopin RFP
+*.iopin VDC
+*.iopin IFP
+*.iopin IFN
+*.iopin GND
+*.iopin ICC
+*.iopin LON2
+*.iopin LOP2
+*.iopin VCC2
+*.iopin ICC2
+*.iopin GND
+*.iopin IDC
+*.iopin VCTR2
+*.iopin VCTR
+*.iopin VCC
+XMN6 RFN LON net2 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XRL2 RFN VDC rppd w=4.72e-6 l=8.82e-6 m=1 b=0
+XRL1 RFP VDC rppd w=4.72e-6 l=8.82e-6 m=1 b=0
+XMN8 RFN LOP net3 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN7 RFP LON net3 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN5 RFP LOP net2 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN4 net3 IFN net1 GND sg13_lv_nmos w=160.0u l=0.13u ng=20 m=1
+XMN3 net2 IFP net1 GND sg13_lv_nmos w=160.0u l=0.13u ng=20 m=1
+XMN1 IDC IDC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=15 m=1
+XMN2 net1 IDC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=15 m=1
+XMN11 LOP LON net4 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN12 LON LOP net4 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN9 ICC ICC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=15 m=1
+XMN10 net4 ICC GND GND sg13_lv_nmos w=120.0u l=0.13u ng=15 m=1
+XC1 VCC LOP cap_cmim w=6.62e-6 l=2.42e-6 m=1
+XR1 LOP VCC rppd w=10.77e-6 l=8.92e-6 m=1 b=0
+XC2 VCC LON cap_cmim w=6.62e-6 l=2.42e-6 m=1
+XR2 LON VCC rppd w=10.77e-6 l=8.92e-6 m=1 b=0
+XMN15 LOP2 LON2 net5 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN16 LON2 LOP2 net5 GND sg13_lv_nmos w=40.0u l=0.13u ng=5 m=1
+XMN13 ICC2 ICC2 GND GND sg13_lv_nmos w=120.0u l=0.13u ng=15 m=1
+XMN14 net5 ICC2 GND GND sg13_lv_nmos w=120.0u l=0.13u ng=15 m=1
+XC4 VCC2 LOP2 cap_cmim w=8.73e-6 l=9.42e-6 m=1
+XR4 LOP2 VCC2 rppd w=10.77e-6 l=8.92e-6 m=1 b=0
+XC5 VCC2 LON2 cap_cmim w=8.73e-6 l=9.42e-6 m=1
+XR5 LON2 VCC2 rppd w=10.77e-6 l=8.92e-6 m=1 b=0
+L4 VCC2 LOP2 2.006n m=1
+L1 VCC LOP 2.006n m=1
+L2 VCC LON 2.006n m=1
+L5 VCC2 LON2 2.006n m=1
+XC6 LOP2 VCTR2 LON2 net5 sg13_hv_svaricap W=9.74e-6 L=0.8e-6 Nx=2
+XC3 LOP VCTR LON GND sg13_hv_svaricap W=9.74e-6 L=0.8e-6 Nx=2
+XMN17 GND net7 net6 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP1 net7 net6 VCC VCC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN18 GND net9 net8 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP2 net9 net8 VCC VCC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN19 GND net11 net10 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP3 net11 net10 VCC VCC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN20 GND net13 net12 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP4 net13 net12 VCTR VCTR sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN21 GND net15 net14 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP5 net15 net14 VCTR VCTR sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN22 GND net17 net16 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP6 net17 net16 VCTR VCTR sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN23 GND net19 net18 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP7 net19 net18 VDC VDC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN24 GND net21 net20 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP8 net21 net20 VDC VDC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN25 GND net23 net22 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP9 net23 net22 VDC VDC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN26 GND net25 net24 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP10 net25 net24 ICC ICC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN27 GND net27 net26 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP11 net27 net26 ICC ICC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN28 GND net29 net28 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP12 net29 net28 ICC ICC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN29 GND net31 net30 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP13 net31 net30 IDC IDC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN30 GND net33 net32 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP14 net33 net32 IDC IDC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN31 GND net35 net34 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP15 net35 net34 IDC IDC sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN35 GND net37 net36 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP19 net37 net36 VCTR2 VCTR2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN36 GND net39 net38 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP20 net39 net38 VCTR2 VCTR2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN37 GND net41 net40 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP21 net41 net40 VCTR2 VCTR2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN38 GND net43 net42 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP22 net43 net42 ICC2 ICC2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN39 GND net45 net44 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP23 net45 net44 ICC2 ICC2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN40 GND net47 net46 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP24 net47 net46 ICC2 ICC2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN32 GND net49 net48 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP16 net49 net48 VCC2 VCC2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN33 GND net51 net50 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP17 net51 net50 VCC2 VCC2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+XMN34 GND net53 net52 GND sg13_lv_nmos w=250u l=0.13u ng=25 m=1
+XMP18 net53 net52 VCC2 VCC2 sg13_lv_pmos w=250u l=0.13u ng=25 m=1
+**.ends
+.end

@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_Wideband_Quadcode_Distributed_Amplifier",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_Wideband_Quadcode_Distributed_Amplifier",
+    "FinalGdsName": "FMD_QNC_2b_Quadcode_DA.gds"
+    "TopCellName": "FMD_QNC_WidebandQuadcode"
+    "Width": "1.08mm"
+    "Height": "1.05mm"
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

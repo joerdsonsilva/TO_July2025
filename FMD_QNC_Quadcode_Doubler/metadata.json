@@ -1,0 +1,15 @@
+{
+  "ProjectName": "FMD_QNC_Quadcode_Doubler",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_Quadcode_Doubler",
+    "FinalGdsName": "FMD_QNC_Quadcode_Doubler.gds",
+    "TopCellName": "FMD_QNC_Quadcode_Doubler",
+    "Width": "1.05mm",
+    "Height": "0.85mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}
+

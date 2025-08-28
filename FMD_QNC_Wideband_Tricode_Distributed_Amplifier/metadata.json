@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_Wideband_Tricode_Distributed_Amplifier",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_Wideband_Tricode_Distributed_Amplifier",
+    "FinalGdsName": "FMD_QNC_2a_Tricode_DA.gds"
+    "TopCellName": "FMD_QNC_Wideband_Tricode",
+    "Width": "1.07mm",
+    "Height": "0.9mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

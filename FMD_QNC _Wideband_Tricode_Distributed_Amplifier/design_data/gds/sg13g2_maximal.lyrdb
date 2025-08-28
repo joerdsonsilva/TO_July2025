@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
- <description>design rules: sg13g2_maximal | layout cell: FMD_QNC_Wideband_Tricode_DA</description>
- <original-file>C:\Users\nsl\Desktop\TO_July2025\Wideband_Distributed_Amplifier\Tricode\design_data\gds\FMD_QNC_2a_Tricode_DA.gds</original-file>
+ <description>design rules: sg13g2_maximal | layout cell: FMD_QNC_Wideband_Tricode</description>
+ <original-file>C:\Users\nsl\Desktop\TO_July2025\FMD_QNC _Wideband_Tricode_Distributed_Amplifier\design_data\gds\FMD_QNC_2a_Tricode_DA.gds</original-file>
  <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_maximal.lydrc'</generator>
- <top-cell>FMD_QNC_Wideband_Tricode_DA</top-cell>
+ <top-cell>FMD_QNC_Wideband_Tricode</top-cell>
  <tags>
  </tags>
  <categories>
@@ -2956,7 +2956,7 @@
  </categories>
  <cells>
   <cell>
-   <name>FMD_QNC_Wideband_Tricode_DA</name>
+   <name>FMD_QNC_Wideband_Tricode</name>
    <variant/>
    <layout-name/>
    <references>
@@ -2968,7 +2968,7 @@
    <layout-name>DA</layout-name>
    <references>
     <ref>
-     <parent>FMD_QNC_Wideband_Tricode_DA</parent>
+     <parent>FMD_QNC_Wideband_Tricode</parent>
      <trans>r0 *1 -562.925,-652.725</trans>
     </ref>
    </references>
@@ -2978,7 +2978,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -2990,7 +2990,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -3002,7 +3002,7 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
@@ -3014,13 +3014,25 @@
   <item>
    <tags/>
    <category>'M2Fil.h/k'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
     <value>polygon: (338.58,258.375;338.58,1058.375;1138.58,1058.375;1138.58,258.375)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM2.c/d'</category>
+   <cell>FMD_QNC_Wideband_Tricode</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (68.58,158.375;68.58,1058.375;1138.58,1058.375;1138.58,158.375)</value>
    </values>
   </item>
   <item>
@@ -3146,7 +3158,7 @@
   <item>
    <tags/>
    <category>'Seal.m'</category>
-   <cell>FMD_QNC_Wideband_Tricode_DA</cell>
+   <cell>FMD_QNC_Wideband_Tricode</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>

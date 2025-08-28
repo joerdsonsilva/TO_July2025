@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
- <description>design rules: sg13g2_maximal | layout cell: FMD_QNC_Wideband_Quadcode_DA</description>
- <original-file>C:/Users/nsl/Desktop/TO_July2025/Wideband_Distributed_Amplifier/Quadcode/design_data/gds/FMD_QNC_2b_Quadcode_DA.gds</original-file>
+ <description>design rules: sg13g2_maximal | layout cell: DA</description>
+ <original-file>C:/Users/nsl/Desktop/TO_July2025/FMD_QNC_Wideband_Quadcode_Distributed_Amplifier/design_data/gds/FMD_QNC_2b_Quadcode_DA.gds</original-file>
  <generator>drc: script='C:/Users/nsl/Downloads/IHP-Open-PDK/ihp-sg13g2/libs.tech/klayout/tech/drc\\sg13g2_maximal.lydrc'</generator>
- <top-cell>FMD_QNC_Wideband_Quadcode_DA</top-cell>
+ <top-cell>DA</top-cell>
  <tags>
  </tags>
  <categories>
@@ -2956,25 +2956,410 @@
  </categories>
  <cells>
   <cell>
-   <name>FMD_QNC_Wideband_Quadcode_DA</name>
+   <name>DA</name>
    <variant/>
    <layout-name/>
    <references>
    </references>
   </cell>
-  <cell>
-   <name>DA</name>
-   <variant/>
-   <layout-name>DA</layout-name>
-   <references>
-    <ref>
-     <parent>FMD_QNC_Wideband_Quadcode_DA</parent>
-     <trans>r0 *1 -562.925,-652.725</trans>
-    </ref>
-   </references>
-  </cell>
  </cells>
  <items>
+  <item>
+   <tags/>
+   <category>'AFil.g/g1'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'AFil.g2/g3'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,1010.715;691.515,1810.715;1491.515,1810.715;1491.515,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'AFil.g2/g3'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1740.715;1491.515,1740.715;1491.515,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'AFil.g2/g3'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,940.715;844.34,1740.715;1644.34,1740.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'AFil.g2/g3'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,1010.715;844.34,1810.715;1644.34,1810.715;1644.34,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'GFil.g'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1.j/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2.j/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3.j/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4.j/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5.j/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,1010.715;691.515,1810.715;1491.515,1810.715;1491.515,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1740.715;1491.515,1740.715;1491.515,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,940.715;844.34,1740.715;1644.34,1740.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M1Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,1010.715;844.34,1810.715;1644.34,1810.715;1644.34,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,1010.715;691.515,1810.715;1491.515,1810.715;1491.515,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1740.715;1491.515,1740.715;1491.515,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,940.715;844.34,1740.715;1644.34,1740.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M2Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,1010.715;844.34,1810.715;1644.34,1810.715;1644.34,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,1010.715;691.515,1810.715;1491.515,1810.715;1491.515,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1740.715;1491.515,1740.715;1491.515,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,940.715;844.34,1740.715;1644.34,1740.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M3Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,1010.715;844.34,1810.715;1644.34,1810.715;1644.34,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,1010.715;691.515,1810.715;1491.515,1810.715;1491.515,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1740.715;1491.515,1740.715;1491.515,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,940.715;844.34,1740.715;1644.34,1740.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M4Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,1010.715;844.34,1810.715;1644.34,1810.715;1644.34,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,1010.715;691.515,1810.715;1491.515,1810.715;1491.515,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1740.715;1491.515,1740.715;1491.515,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,940.715;844.34,1740.715;1644.34,1740.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'M5Fil.h/k'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (844.34,1010.715;844.34,1810.715;1644.34,1810.715;1644.34,1010.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM1.c/d'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'TM2.c/d'</category>
+   <cell>DA</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (691.515,940.715;691.515,1810.715;1644.34,1810.715;1644.34,940.715)</value>
+   </values>
+  </item>
   <item>
    <tags/>
    <category>'Pad.aR'</category>
@@ -3093,18 +3478,6 @@
    <image/>
    <values>
     <value>edge-pair: (1038.62,991.06;1046.175,998.615)|(1064.42,991.06;1064.42,974.434)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>'Seal.m'</category>
-   <cell>FMD_QNC_Wideband_Quadcode_DA</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>polygon: (70.77,161.335;70.77,1198.335;1122.77,1198.335;1122.77,161.335)</value>
    </values>
   </item>
  </items>

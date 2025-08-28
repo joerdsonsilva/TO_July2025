@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_140_GHz_to_170_GHz_Full_360_degree_Phase_Shifter_TX_with_10_dB_Gain_Control",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_D_Band_Phase_Shifter",
+    "FinalGdsName": "FMD_QNC_D_Band_Phase_Shifter.gds",
+    "TopCellName": "FMD_QNC_D_Band_PS",
+    "Width": "2.0mm",
+    "Height": "0.76mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

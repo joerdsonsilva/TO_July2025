@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_140_GHz_to_180_GHz_Power_Amplifier",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_D_Band_Power_Amplifier",
+    "FinalGdsName": "FMD_QNC_D_Band_PA.gds",
+    "TopCellName": "FMD_QNC_CASCODE_PA",
+    "Width": "0.97mm",
+    "Height": "0.66mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_Stacked_180GHz_PA",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_Stacked_180GHz_PA",
+    "FinalGdsName": "FMD_QNC_Stacked_180GHz_PA.gds",
+    "TopCellName": "FMD_QNC_Stacked_180GHz_PA",
+    "Width": "1.6mm",
+    "Height": "1.1253mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_140GHz_Oscillator",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_140GHz_Oscillator",
+    "FinalGdsName": "FMD_QNC_140GHz_Oscillator.gds",
+    "TopCellName": "FMD_QNC_140GHz_Oscillator",
+    "Width": "0.575mm",
+    "Height": "0.880mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

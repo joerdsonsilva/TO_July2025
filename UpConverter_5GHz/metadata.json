@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_UpConverter_5GHz",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_UpConverter_5GHz",
+    "FinalGdsName": "FMD_QNC_UpConverter_5GHz.gds",
+    "TopCellName": "FMD_QNC_UpConverter_5GHz",
+    "Width": "1.08mm",
+    "Height": "1.85mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

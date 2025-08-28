@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_W_Band_BM_IC",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_W_Band_Butler_Matrix_IC",
+    "FinalGdsName": "FMD_QNC_W_Band_BM_IC.gds",
+    "TopCellName": "FMD_QNC_W_Band_BM_IC",
+    "Width": "1.2mm",
+    "Height": "1.1mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

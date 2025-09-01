@@ -1,0 +1,3 @@
+29-Aug-2025 11:12:44 | INFO    | Your Klayout version is: KLayout 0.30.1
+29-Aug-2025 11:12:44 | INFO    | Running SG13G2 LVS checks on design /foss/designs/TO_July2025_OTALED/OTALED/design_data/gds/FMD_QNC_foldedcascode.gds on cell FMD_QNC_foldedcascode
+29-Aug-2025 11:13:45 | INFO    | Total execution time 63.02635169029236s

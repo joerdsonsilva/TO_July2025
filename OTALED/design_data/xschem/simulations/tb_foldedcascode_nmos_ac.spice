@@ -1,0 +1,67 @@
+** sch_path: /foss/designs/thesis/thesis_hp/Designs/otas/3_kpex/postlayout_testbenches/tb_foldedcascode_nmos_ac.sch
+**.subckt tb_foldedcascode_nmos_ac
+Vss v_ss GND 0
+Vdd v_dd GND 1.5
+Vin v_in v_ss dc 0.7 ac 1
+.save v(v_in)
+I0 v_dd net1 14u
+.save v(v_out)
+x1 v_dd net1 v_out v_out v_in v_ss ota_final
+**** begin user architecture code
+
+
+
+*.include /foss/designs/thesis/thesis_hp/designs/otas/3_kpex/ota_final__ota_final/magic_CC/ota_final.pex.spice
+
+*.include /foss/designs/thesis/thesis_hp/Designs/otas/1_schematics/simulations/ota_final.spice
+
+.include /foss/designs/thesis/thesis_hp/Designs/otas/2_layout/ota_with_CMIM/lvs/FMD_QNC_foldedcascode_extracted.cir
+
+*.include /foss/designs/thesis/TO_July2025_OTALED/OTALED/design_data/lvs/foldedcascode_pmos_extracted.cir
+
+
+
+
+
+.temp 27
+.control
+option sparse
+save all
+op
+write tb_foldedcascode_nmos_ac.raw
+set appendwrite
+
+ac dec 101 1k 1G
+write tb_foldedcascode_nmos_ac.raw
+plot 20*log10(v_out)
+
+
+
+meas ac dcgain MAX vmag(v_out) FROM=10 TO=10k
+let f3db = dcgain/sqrt(2)
+meas ac fbw WHEN vmag(v_out)=f3db FALL=1
+let gainerror=(dcgain-1)/1
+print dcgain
+print fbw
+print gainerror
+
+
+
+plot 180/pi*ph(v_out) vs frequency
+
+noise v(v_out) Vin dec 101 1k 100MEG
+print onoise_total
+
+.endc
+
+
+ .lib cornerMOSlv.lib mos_tt
+.lib /foss/pdks/ihp-sg13g2/libs.tech/ngspice/models/cornerRES.lib res_typ
+.lib /foss/pdks/ihp-sg13g2/libs.tech/ngspice/models/cornerCAP.lib cap_typ
+.include /foss/pdks/ihp-sg13g2/libs.tech/ngspice/models/sg13g2_bondpad.lib
+.include /foss/pdks/ihp-sg13g2/libs.tech/ngspice/models/sg13g2_esd.lib
+
+**** end user architecture code
+**.ends
+.GLOBAL GND
+.end

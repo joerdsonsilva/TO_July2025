@@ -4,7 +4,7 @@
   "Technology": "SG13G2",
   "Design": {
     "DesignName": "FMD_QNC_MOS_VCO_LC",
-    "FinalGdsName": "FMD_QNC_MOS_VCO_LC_139_filled.gds",
+    "FinalGdsName": "FMD_QNC_MOS_VCO_LC_141_filled.gds",
     "TopCellName": "FMD_QNC_MOS_VCO_LC",
     "Width": "0.71mm",
     "Height": "0.71mm",

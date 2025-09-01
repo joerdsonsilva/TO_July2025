@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>design rules: sg13g2_minimal | layout cell: FMD_QNC_mWATTBAT</description>
+ <original-file/>
+ <generator>drc: script='/home/runner/work/TO_July2025/TO_July2025/drc/drc.lydrc'</generator>
+ <top-cell>FMD_QNC_mWATTBAT</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>Act.a</name>
+   <description>Min. Activ width = 0.15</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Act.b</name>
+   <description>Min. Activ space or notch = 0.21</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.g</name>
+   <description>Min. global Activ density [%] = 35.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.g1</name>
+   <description>Max. global Activ density [%] = 55.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.g2</name>
+   <description>Min. Activ coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>AFil.g3</name>
+   <description>Max. Activ coverage ratio for any 800 x 800 µm² chip area [%] = 65.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TGO.f</name>
+   <description>Min. ThickGateOx width = 0.86</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.a</name>
+   <description>Min. GatPoly width = 0.13</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.b</name>
+   <description>Min. GatPoly space or notch = 0.18</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Gat.d</name>
+   <description>Min. GatPoly space to Activ = 0.07</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>GFil.g</name>
+   <description>Min. global GatPoly density [%] = 15.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.a</name>
+   <description>Min. and max. Cont width = 0.16</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Cnt.b</name>
+   <description>Min. Cont space = 0.18</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.a</name>
+   <description>Min. Metal1 width = 0.16</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.b</name>
+   <description>Min. Metal1 space or notch = 0.18</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.j</name>
+   <description>Min. global Metal1 density [%] = 35.0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1.k</name>
+   <description>Max. global Metal1 density [%] = 60.0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.a</name>
+   <description>Min. Metal2 width = 0.20</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.b</name>
+   <description>Min. Metal2 space or notch = 0.21</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.j</name>
+   <description>Min. global Metal2 density [%] = 35.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2.k</name>
+   <description>Max. global Metal2 density [%] = 60.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.a</name>
+   <description>Min. Metal3 width = 0.20</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.b</name>
+   <description>Min. Metal3 space or notch = 0.21</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.j</name>
+   <description>Min. global Metal3 density [%] = 35.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3.k</name>
+   <description>Max. global Metal3 density [%] = 60.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.a</name>
+   <description>Min. Metal4 width = 0.20</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.b</name>
+   <description>Min. Metal4 space or notch = 0.21</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.j</name>
+   <description>Min. global Metal4 density [%] = 35.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4.k</name>
+   <description>Max. global Metal4 density [%] = 60.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.a</name>
+   <description>Min. Metal5 width = 0.20</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.b</name>
+   <description>Min. Metal5 space or notch = 0.21</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.j</name>
+   <description>Min. global Metal5 density [%] = 35.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5.k</name>
+   <description>Max. global Metal5 density [%] = 60.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1Fil.h</name>
+   <description>Min. Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M1Fil.k</name>
+   <description>Max. Metal1 and Metal1:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2Fil.h</name>
+   <description>Min. Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M2Fil.k</name>
+   <description>Max. Metal2 and Metal2:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3Fil.h</name>
+   <description>Min. Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M3Fil.k</name>
+   <description>Max. Metal3 and Metal3:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4Fil.h</name>
+   <description>Min. Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M4Fil.k</name>
+   <description>Max. Metal4 and Metal4:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5Fil.h</name>
+   <description>Min. Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>M5Fil.k</name>
+   <description>Max. Metal5 and Metal5:filler coverage ratio for any 800 x 800 µm² chip area [%] = 75.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V1.a</name>
+   <description>Min. and max. Via1 width = 0.19</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V1.b</name>
+   <description>Min. Via1 space = 0.22</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V2.a</name>
+   <description>Min. and max. Via2 width = 0.19</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V2.b</name>
+   <description>Min. Via2 space = 0.22</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V3.a</name>
+   <description>Min. and max. Via3 width = 0.19</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V3.b</name>
+   <description>Min. Via3 space = 0.22</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V4.a</name>
+   <description>Min. and max. Via4 width = 0.19</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>V4.b</name>
+   <description>Min. Via4 space = 0.22</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV1.a</name>
+   <description>Min. and max. TopVia1 width = 0.42</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV1.b</name>
+   <description>Min. TopVia1 space = 0.42</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1.a</name>
+   <description>Min. TopMetal1 width = 1.64</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1.b</name>
+   <description>Min. TopMetal1 space or notch = 1.64</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1.c</name>
+   <description>Min. global TopMetal1 density [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM1.d</name>
+   <description>Max. global TopMetal1 density [%] = 70.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV2.a</name>
+   <description>Min. and max. TopVia2 width = 0.90</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TV2.b</name>
+   <description>Min. TopVia2 space = 1.06</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.a</name>
+   <description>Min. TopMetal2 width = 2.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.b</name>
+   <description>Min. TopMetal2 space or notch = 2.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.c</name>
+   <description>Min. global TopMetal2 density [%] = 25.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>TM2.d</name>
+   <description>Max. global TopMetal2 density [%] = 70.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pas.a</name>
+   <description>Min. Passiv width = 2.10</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pas.b</name>
+   <description>Min. Passiv space or notch = 3.50</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.a</name>
+   <description>Min. Activ enclosure of Activ:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.b</name>
+   <description>Min. GatPoly enclosure of GatPoly:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.e</name>
+   <description>Min. Metal1 enclosure of Metal1:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f.M2</name>
+   <description>Min. Metal2 enclosure of Metal2:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f.M3</name>
+   <description>Min. Metal3 enclosure of Metal3:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f.M4</name>
+   <description>Min. Metal4 enclosure of Metal4:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.f.M5</name>
+   <description>Min. Metal5 enclosure of Metal5:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.g</name>
+   <description>Min. TopMetal1 enclosure of TopMetal1:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>Pin.h</name>
+   <description>Min. TopMetal2 enclosure of TopMetal2:pin = 0.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.a</name>
+   <description>Min. LBE width = 100.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.b</name>
+   <description>Max. LBE width = 1500.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.b1</name>
+   <description>Max. LBE area (µm²) = 250000.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.c</name>
+   <description>Min. LBE space or notch = 100.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.d</name>
+   <description>Min. LBE space to inner edge of EdgeSeal = 150.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.h</name>
+   <description>No LBE ring allowed</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>LBE.i</name>
+   <description>Max. global LBE density [%] = 20.00</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.BiWind</name>
+   <description>Forbidden drawn layer BiWind on GDS layer 3/0 = 3/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.PEmWind</name>
+   <description>Forbidden drawn layer PEmWind on GDS layer 11/0 = 11/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.BasPoly</name>
+   <description>Forbidden drawn layer BasPoly on GDS layer 13/0 = 13/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.DeepCo</name>
+   <description>Forbidden drawn layer DeepCo on GDS layer 35/0 = 35/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.PEmPoly</name>
+   <description>Forbidden drawn layer PEmPoly on GDS layer 53/0 = 53/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.EmPoly</name>
+   <description>Forbidden gen./drawn layer EmPoly on GDS layer 53/0 = 53/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.LDMOS</name>
+   <description>Forbidden drawn layer LDMOS on GDS layer 57/0 = 57/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.PBiWind</name>
+   <description>Forbidden drawn layer PBiWind on GDS layer 58/0 = 58/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.Flash</name>
+   <description>Forbidden drawn layer Flash on GDS layer 71/0 = 71/0</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>forbidden.ColWind</name>
+   <description>Forbidden drawn layer ColWind on GDS layer 139/0 = 139/0</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>FMD_QNC_mWATTBAT</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>RFAMP_50GD</name>
+   <variant/>
+   <layout-name>RFAMP_50GD</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 1002.528,126.205</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>BIAS_DN</name>
+   <variant/>
+   <layout-name>BIAS_DN</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 1031.983,128.985</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>npn13G2L$2</name>
+   <variant/>
+   <layout-name>npn13G2L$2</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 1009.043,130.76</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CORE</name>
+   <variant/>
+   <layout-name>CORE</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 994.47,132.9</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>npn13G2L$3</name>
+   <variant/>
+   <layout-name>npn13G2L$3</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r270 *1 985.52,139.033</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MULT_50GD_150GD</name>
+   <variant/>
+   <layout-name>MULT_50GD_150GD</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 994.47,191.115</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CORE$1</name>
+   <variant/>
+   <layout-name>CORE$1</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 994.47,197.81</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>BIAS_DN$1</name>
+   <variant/>
+   <layout-name>BIAS_DN$1</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>m90 *1 1031.983,193.915</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>BALUN_MULT_10GSE_50GD</name>
+   <variant/>
+   <layout-name>BALUN_MULT_10GSE_50GD</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 994.47,75.81</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>npn13G2L</name>
+   <variant/>
+   <layout-name>npn13G2L</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 990.57,63.155</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>npn13G2L$1</name>
+   <variant/>
+   <layout-name>npn13G2L$1</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r90 *1 1001.92,78.555</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>RXSIDE</name>
+   <variant/>
+   <layout-name>RXSIDE</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 1584.627,500</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>RXAMP_150GD</name>
+   <variant/>
+   <layout-name>RXAMP_150GD</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r90 *1 1275.735,499.999</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CORE$2$1</name>
+   <variant/>
+   <layout-name>CORE$2$1</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r90 *1 1256.91,499.999</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>BIAS_DN$2$1</name>
+   <variant/>
+   <layout-name>BIAS_DN$2$1</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>m135 *1 1260.685,537.447</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>TXSIDE</name>
+   <variant/>
+   <layout-name>TXSIDE</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 443.835,500</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>TXAMP_150GD</name>
+   <variant/>
+   <layout-name>TXAMP_150GD</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r90 *1 782.47,500</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CORE$2$1$3</name>
+   <variant/>
+   <layout-name>CORE$2$1$3</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r90 *1 763.645,500</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>BIAS_DN$2$1$3</name>
+   <variant/>
+   <layout-name>BIAS_DN$2$1$3</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>m135 *1 767.42,537.448</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>RFAMP_150GD</name>
+   <variant/>
+   <layout-name>RFAMP_150GD</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 994.47,298.525</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>CORE$2</name>
+   <variant/>
+   <layout-name>CORE$2</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 994.47,317.35</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>BIAS_DN$2</name>
+   <variant/>
+   <layout-name>BIAS_DN$2</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>m90 *1 1031.918,313.575</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MIXER</name>
+   <variant/>
+   <layout-name>MIXER</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 949.625,697.537</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MIXER_Q30</name>
+   <variant/>
+   <layout-name>MIXER_Q30</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r90 *1 1097.445,733.645</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>MIXER_Q31</name>
+   <variant/>
+   <layout-name>MIXER_Q31</layout-name>
+   <references>
+    <ref>
+     <parent>FMD_QNC_mWATTBAT</parent>
+     <trans>r0 *1 1137.78,702.095</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$2</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (3.805,3;3.805,5.7;3.995,5.7;3.995,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$3</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (6.605,3;6.605,5.7;6.795,5.7;6.795,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$3</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (3.805,3;3.805,5.7;3.995,5.7;3.995,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$3</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (9.405,3;9.405,5.7;9.595,5.7;9.595,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$3</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (12.205,3;12.205,5.7;12.395,5.7;12.395,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (3.805,3;3.805,4.2;3.995,4.2;3.995,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (3.805,3;3.805,4.2;3.995,4.2;3.995,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (6.605,3;6.605,4.2;6.795,4.2;6.795,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (9.405,3;9.405,4.2;9.595,4.2;9.595,3)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'V1.a'</category>
+   <cell>npn13G2L$1</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (12.205,3;12.205,4.2;12.395,4.2;12.395,3)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

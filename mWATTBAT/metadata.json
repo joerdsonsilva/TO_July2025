@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_mWATTBAT",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_mWATTBAT",
+    "FinalGdsName": "FMD_QNC_mWATTBAT.gds",
+    "TopCellName": "FMD_QNC_mWATTBAT",
+    "Width": "2.0mm",
+    "Height": "1.0mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}

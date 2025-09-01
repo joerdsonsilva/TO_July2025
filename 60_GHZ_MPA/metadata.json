@@ -1,0 +1,14 @@
+{
+  "ProjectName": "FMD_QNC_60_ghz_mpa_filled.gds",
+  "Shuttle": "MPW 0.13µm Jul 2025(T593)",
+  "Technology": "SG13G2",
+  "Design": {
+    "DesignName": "FMD_QNC_60_ghz_mpa_filled.gds",
+    "FinalGdsName": "FMD_QNC_60_ghz_mpa_filled.gds",
+    "TopCellName": "FMD_QNC_60_ghz_mpa",
+    "Width": "0.700mm",
+    "Height": "0.750mm",
+    "NumberOfSamples": "10"
+  },
+  "FinalWaferThickness": "200um"
+}f
